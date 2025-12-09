@@ -7,11 +7,11 @@ export default function LoanSection() {
         { title: "CASH CREDIT LOAN", rate: "11.25", icon: "/images/loan3.jpg" },
         { title: "PERSONAL LOAN", rate: "13.50", icon: "/images/loan4.jpg" },
         { title: "ECCS LOAN", rate: "11.25", icon: "/images/loan5.jpg" },
-        { title: "SHG LOAN", rate: "2.00", icon: "/icons/shg.png" },
-        { title: "KCC LOAN", rate: "4.00", icon: "/icons/kcc.png" },
-        { title: "WORK ORDER LOAN", rate: "11.25", icon: "/icons/workorder.png" },
-        { title: "TERM LOAN", rate: "Flexy", icon: "/icons/term.png" },
-        { title: "LOAN AGAINST NSC/KVP/LIC", rate: "11.00", icon: "/icons/nsc.png" },
+        { title: "SHG LOAN", rate: "2.00", icon: "/images/loan6.jpg" },
+        { title: "KCC LOAN", rate: "4.00", icon: "/images/loan7.jpg" },
+        { title: "WORK ORDER LOAN", rate: "11.25", icon: "/images/loan8.jpg" },
+        { title: "TERM LOAN", rate: "Flexi", icon: "/images/loan9.jpg" },
+        { title: "LOAN AGAINST NSC/KVP/LIC", rate: "11.00", icon: "/images/loan10.jpg" },
     ];
 
     return (
