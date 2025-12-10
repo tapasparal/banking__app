@@ -1,4 +1,6 @@
-export default function LoanCard({ title, rate, icon }) {
+import { useNavigate } from "react-router-dom";
+export default function LoanCard({ title, rate, icon, path }) {
+    const navigate = useNavigate();
     return (
         <div className="bg-white border border-gray-200 shadow-md rounded-xl p-6 
                         flex flex-col items-center text-center
@@ -20,7 +22,7 @@ export default function LoanCard({ title, rate, icon }) {
                 </>
             )}
 
-            <button className="mt-auto bg-blue-600 text-white px-6 py-2 rounded-lg 
+            <button onClick={() => path && navigate(path)} className="mt-auto bg-blue-600 text-white px-6 py-2 rounded-lg 
                                font-semibold hover:bg-blue-700 transition">
                 APPLY NOW
             </button>

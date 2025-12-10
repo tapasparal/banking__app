@@ -67,12 +67,12 @@ export default function Navbar() {
             <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
 
                 {/* Logo */}
-                <h2 className="text-2xl font-bold tracking-wider">
-                    MDCB
+                <h2 className="text-2xl font-bold tracking-wider ml-20">
+                    MDCC BANK
                 </h2>
 
                 {/* Desktop Menu */}
-                <ul className="hidden md:flex gap-8 font-semibold items-center">
+                <ul className="hidden md:flex gap-8 font-semibold items-center mr-20">
 
                     <NavItem to="/">HOME</NavItem>
                     <NavItem to="/about">ABOUT</NavItem>

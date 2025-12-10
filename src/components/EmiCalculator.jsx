@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function EMICalculator() {
+export default function EmiCalculator() {
     const [amount, setAmount] = useState("");
     const [rate, setRate] = useState("");
     const [months, setMonths] = useState("");
@@ -25,7 +25,7 @@ export default function EMICalculator() {
                 <img
                     src="/images/bank4.png"
                     alt="Bank"
-                    className="w-full h-full object-cover brightness-95"
+                    className="w-full h-full object-cover brightness-95 rounded-full p-10"
                 />
 
                 {/* Blue Overlay */}

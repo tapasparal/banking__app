@@ -57,7 +57,7 @@ export default function Header() {
                 className="
                     ml-2
                     w-70
-                    h-10
+                    h-13
                 "
             />
 
@@ -66,16 +66,19 @@ export default function Header() {
                 className="
                     flex items-center 
                     overflow-hidden whitespace-nowrap 
-                    font-mono font-bold text-blue-900
+                    font-sans tracking-tight font-bold text-blue-900
 
                     text-[1rem] 
                     sm:text-[1.3rem] 
                     md:text-[1.6rem] 
                     lg:text-[1.9rem]
-                    md:mx-12
+                    md:mx-1
 
                     w-full sm:w-auto 
                     mt-2 sm:mt-0 
+
+                    text-center md:text-left
+                    justify-center md:justify-start
                 "
             >
 
