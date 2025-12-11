@@ -151,7 +151,7 @@ export default function HomeLoan() {
                     backgroundImage: "url('/images/HOUSE1.jpg')"
                 }}
             >
-                <div className="max-w-4xl mx-auto bg-white/80 backdrop-blur-md shadow-lg p-6 sm:p-10 rounded-2xl text-center sm:text-left">
+                <div className="max-w-2xl mx-auto bg-white/5 backdrop-blur-md shadow-lg p-6 sm:p-10 rounded-2xl text-center sm:text-center">
 
                     <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-blue-900 leading-tight">
                         Home Loan
