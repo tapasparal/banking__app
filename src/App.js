@@ -20,6 +20,9 @@ import PersonalLoan from "./components/PersonalLoan";
 import EccsLoan from "./components/EccsLoan";
 import ShgLoan from "./components/ShgLoan";
 import ScrollToTop from "./components/ScrollToTop";
+import KccLoan from "./components/KccLoan";
+import WorkOrderLoan from "./components/WorkOrderLoan";
+import TermLoan from "./components/TermLoan";
 
 function App() {
   return (
@@ -43,7 +46,9 @@ function App() {
           <Route path="/personal_loan" element={<><TopInfoBar /><Header /><Navbar /><PersonalLoan /><Footer /></>} />
           <Route path="/eccs_loan" element={<><TopInfoBar /><Header /><Navbar /><EccsLoan /><Footer /></>} />
           <Route path="/shg_loan" element={<><TopInfoBar /><Header /><Navbar /><ShgLoan /><Footer /></>} />
-
+          <Route path="/kcc_loan" element={<><TopInfoBar /><Header /><Navbar /><KccLoan /><Footer /></>} />
+          <Route path="/work_order_loan" element={<><TopInfoBar /><Header /><Navbar /><WorkOrderLoan /><Footer /></>} />
+          <Route path="/term_loan" element={<><TopInfoBar /><Header /><Navbar /><TermLoan /><Footer /></>} />
         </Routes>
       </BrowserRouter>
     </>

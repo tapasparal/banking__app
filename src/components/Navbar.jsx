@@ -67,7 +67,7 @@ export default function Navbar() {
             <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
 
                 {/* Logo */}
-                <h2 className="text-2xl font-bold tracking-wider ml-20">
+                <h2 className="text-2xl font-bold tracking-wider ml-0 sm:ml-20">
                     MDCC BANK
                 </h2>
 
@@ -125,7 +125,7 @@ export default function Navbar() {
                     <MobileItem to="/about" setOpen={setOpen}>ABOUT</MobileItem>
 
                     {/* PRODUCT MOBILE ACCORDION */}
-                    <li>
+                    {/* <li>
                         <button
                             onClick={() => setProductOpen(!productOpen)}
                             className="flex items-center justify-between py-2 w-full hover:text-black transition"
@@ -148,8 +148,8 @@ export default function Navbar() {
                                 <Product />
                             </div>
                         </div>
-                    </li>
-
+                    </li> */}
+                    <li><ProductDropdown /></li>
                     <MobileItem to="/services" setOpen={setOpen}>SERVICES</MobileItem>
                     <MobileItem to="/tender" setOpen={setOpen}>TENDER</MobileItem>
                     <MobileItem to="/gallery" setOpen={setOpen}>GALLERY</MobileItem>
